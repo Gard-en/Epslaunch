@@ -1,0 +1,18 @@
+﻿<Window x:Class="Epslaunch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Epslaunch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" WindowStyle="None">
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+    <Grid>
+        <Frame x:Name="topMenuFrame" Content="Frame" HorizontalAlignment="Left" Height="73" Margin="0,-1,0,0" VerticalAlignment="Top" Width="517" Background="#FF1E354B"/>
+        <Frame Content="Frame" HorizontalAlignment="Left" Height="270" Margin="0,72,0,0" VerticalAlignment="Top" Width="105" Background="#FF3E3E49"/>
+        <Frame Content="Frame" HorizontalAlignment="Left" Height="270" Margin="105,72,0,0" VerticalAlignment="Top" Width="412" Background="#FF3E3E49"/>
+
+    </Grid>
+</Window>
